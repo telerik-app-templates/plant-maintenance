@@ -28,7 +28,7 @@ app.Login = (function () {
 
         // Authenticate to use Backend Services as a particular user
         var login = function () {
-            /*
+            
             var username = $loginUsername.val();
             var password = $loginPassword.val();
 
@@ -53,8 +53,8 @@ app.Login = (function () {
                       app.showError(err.message);
                   }
             );
-            */
             
+           /* 
             $.soap({
                 url: 'http://hctwebapps.hct.ac.ae/MobilePOC/HCTService.svc/',
                 method: 'GetLoginInfo',
@@ -69,6 +69,7 @@ app.Login = (function () {
                     console.log(soapError);
                 }
             });
+*/
         };
 
         var showMistAlert = function () {
